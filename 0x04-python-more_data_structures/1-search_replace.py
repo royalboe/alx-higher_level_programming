@@ -1,8 +1,8 @@
 def search_replace(my_list, search, replace):
-    dup = []
+    copy = []
     for i in range(len(my_list)):
         if my_list[i] == search:
-            dup.append(replace)
+            copy.append(replace)
         else:
-            dup.append(my_list[i])
-    return dup
+            copy.append(my_list[i])
+    return copy
