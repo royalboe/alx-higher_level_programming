@@ -3,15 +3,15 @@
 import json
 
 
-def to_json_string(my_obj):
-    """A functions that returns the JSON representation of an object
+def to_json_string(my_str):
+    """A functions that returns the python representation of a string
 
     Args:
-        my_obj (:obj:): object to be converted
+        my_str (:str:): string to be converted
 .
     Returns:
-        JSOM format of the object.
+        python representation of the object.
 
     """
 
-    return json.dumps(my_obj)
+    return json.loads(my_str)
