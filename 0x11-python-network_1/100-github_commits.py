@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""  script that tlist 10 commits (from the most recent to oldest)
+"""  script that lists 10 commits (from the most recent to oldest)
      of the repository
 """
 import requests
