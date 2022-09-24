@@ -14,5 +14,7 @@ def error_rcode():
         print('Error code: {}'.format(status))
     else:
         print(response.text)
+
+
 if __name__ == "__main__":
     error_rcode()

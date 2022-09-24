@@ -9,5 +9,6 @@ def fetch_r():
     s = "Body response:\n\t- type: {}\n\t- content: {}"
     print(s.format(type(req.text), req.text))
 
+
 if __name__ == "__main__":
     fetch_r()

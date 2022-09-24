@@ -14,5 +14,6 @@ def post_emailr():
     r = requests.post(url, data=values)
     print(r.text)
 
+
 if __name__ == "__main__":
     post_emailr()

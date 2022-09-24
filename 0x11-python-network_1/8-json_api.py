@@ -23,5 +23,6 @@ def json_api():
     except:
         print("Not a valid JSON")
 
+
 if __name__ == "__main__":
     json_api()

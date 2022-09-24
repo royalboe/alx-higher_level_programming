@@ -12,5 +12,6 @@ def request_id():
         the_page = response.info()
     print(the_page['X-Request-Id'])
 
+
 if __name__ == "__main__":
     request_id()
