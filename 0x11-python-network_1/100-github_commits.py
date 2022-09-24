@@ -21,5 +21,6 @@ def my_githubrails():
             print("{}: {}".format(i.get('sha'),
                                   i.get('commit').get('author').get('name')))
 
+
 if __name__ == "__main__":
     my_githubrails()
