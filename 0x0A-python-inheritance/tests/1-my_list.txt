@@ -1,0 +1,21 @@
+===============================
+ How to Use 1-my_list.py
+===============================
+
+This module defines a class ``MyList`` that inherits from ``list``.
+
+Instantiation
+=============
+
+``MyList`` can be instantiated with no arguements, which will return an
+empty list:
+
+::
+    >>> MyList = __import__('1-my_list').MyList
+    >>> my_list = MyList()
+    >>> type(my_list)
+    <class '1-my_list.MyList>
+
+    >>> my_list = [5, 7, 1, 6, 4]
+    >>> print(my_list.print_sorted())
+        [1, 4, 5, 6, 7]
