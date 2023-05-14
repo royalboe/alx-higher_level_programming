@@ -9,6 +9,8 @@ if __name__ == "__main__":
         print("{} argument:".format(i))
     else:
         print("{} arguments:".format(i))
+   
+# print("0 arguments." if i == 0 else "1 argument:" if i == 1 else "{} arguments:".format(i))
 
     if i >= 1:
         i = 0
