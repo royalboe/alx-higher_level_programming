@@ -28,3 +28,6 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * What are the arithmetic operators and how to use them
 
 ## Files
+- [0-positive_or_negative.py](./0-positive_or_negative.py) | Program assigns a random number and code checks if number is negative or positive.
+- [1-last_digit.py](./1-last_digit.py) | Program assigns a source code to the variable number, prints the last digit of number.
+- [2-print_alphabet.py](./2-print_alphabet.py)
